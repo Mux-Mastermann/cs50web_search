@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+  <title>search</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+
+<body>
+  <header class="text-right">
+    <a href="index.html">Home</a>
+    <a href="img_search.html">Pictures</a>
+  </header>
+
+  <div class="h4">
+    <h4>Advanced Search</h4>
+  </div>
+
+  <form class="adv_search" action="https://google.com/search">
+    <div class="form-group row">
+      <label for="">Find pages with...</label>
+    </div>
+    <div class="form-group row">
+      <label for="atw" class="col-sm-4 col-form-label">all these words</label>
+      <div class="col-sm-8">
+        <input type="text" class="form-control" id="atw" name="as_q" />
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="exact" class="col-sm-4 col-form-label">this exact word or phrase</label>
+      <div class="col-sm-8">
+        <input type="text" class="form-control" id="exact" name="as_epq" />
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="any" class="col-sm-4 col-form-label">any of these words</label>
+      <div class="col-sm-8">
+        <input type="text" class="form-control" id="any" name="as_oq" />
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="none" class="col-sm-4 col-form-label">none of these words</label>
+      <div class="col-sm-8">
+        <input type="text" class="form-control" id="none" name="as_eq" />
+      </div>
+    </div>
+    <div class="form-group row">
+      <div class="col-sm-4"></div>
+      <div class="col-sm-8 text-right">
+        <button class="btn btn-primary" type="submit">Advanced Search</button>
+      </div>
+    </div>
+  </form>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
